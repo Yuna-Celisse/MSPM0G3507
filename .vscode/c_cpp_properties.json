@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "MSPM0G3507",
+            "includePath": [
+                "${workspaceFolder}/source",
+                "${workspaceFolder}/source/ti/devices/msp",
+                "${workspaceFolder}/source/ti/devices/msp/m0p",
+                "${workspaceFolder}/source/third_party/CMSIS/Core/Include",
+                "${workspaceFolder}/source/ti/driverlib",
+                "${workspaceFolder}/source/ti/driverlib/m0p",
+                "${default}"
+            ],
+            "defines": [
+                "__MSPM0G3507__"
+            ],
+            "compilerPath": "",
+            "cStandard": "c99",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-arm",
+            "configurationProvider": ""
+        }
+    ],
+    "version": 4
+}

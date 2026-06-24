@@ -1,0 +1,73 @@
+# ===== Build Outputs =====
+*.o
+*.obj
+*.out
+*.elf
+*.hex
+*.bin
+*.axf
+*.map
+*.lst
+*.d
+*.dep
+*.crf
+*.a
+*.lib
+*.dll
+*.exe
+*.so
+
+# Build directories
+Debug/
+Release/
+Objects/
+Listings/
+Output/
+
+# ===== Keil uVision =====
+# User-specific debug/trace config
+*.uvguix.*
+*.uvguix.*
+*.scvd
+JLinkLog.txt
+JLinkSettings.ini
+*.ini
+# Editor backup files
+*.bak
+*.backup
+
+# ===== IAR =====
+Debug/
+Release/
+settings/
+*.log
+*.dbgdt
+
+# ===== TI CCS / SysConfig =====
+*.projectspec.bak
+*.ccsproject.bak
+
+# ===== OS junk =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+*~
+._*
+
+# ===== Temp files =====
+*.tmp
+*.swp
+*.swo
+*.orig
+
+# ===== IDE =====
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===== Python __pycache__ =====
+__pycache__/
+*.pyc
+*.pyo
